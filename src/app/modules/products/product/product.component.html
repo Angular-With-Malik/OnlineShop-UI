@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="col-md-12">
+    <table class="border border-success table table-hover">
+      <tr style="text-align: center;">
+        <th>
+          <button class="btn btn-primary" (click)="showAndHide(title)">{{title}} Image</button>
+        </th>
+        <th>
+          Name
+        </th>
+        <th>
+          Price
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+          Description
+        </th>
+      </tr>
+      <tr style="text-align: center" *ngFor="let product of allProducts">
+        <td>
+          <img *ngIf="!isButtonShow" [src]="product.image" style="height: 80px;
+                    width: 100px;" title="{{product.name}}">
+        </td>
+        <td>
+          <a [routerLink]="['../',product.label,product.name]">{{product.name}}</a>
+        </td>
+        <td>
+          {{product.price}}
+        </td>
+        <td>
+          {{product.status}}
+        </td>
+        <td>
+          {{product.description}}
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+<button class="btn btn-info" style="margin-left: 1050px;" [routerLink]="['']">Back</button>

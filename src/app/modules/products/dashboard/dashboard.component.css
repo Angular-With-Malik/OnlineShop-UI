@@ -1,0 +1,13 @@
+.product{
+    text-align: center;
+    cursor: pointer;
+}
+
+.product-border:hover {
+    color: green;
+}
+
+.image-layout{
+    width: 80px;
+    height: 80px;
+}

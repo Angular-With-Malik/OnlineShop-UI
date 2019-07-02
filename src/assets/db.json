@@ -1,0 +1,81 @@
+{
+    "LaptopProduct": [
+        {
+            "name": "HP",
+            "price": 32000,
+            "label": "Laptop",
+            "description": "Hp laptop ...",
+            "status": "Available",
+            "image": "../../../../assets/laptop/hp laptop.png",
+            "id": 1
+        },
+        {
+            "id": 2,
+            "name": "DELL",
+            "price": 31000,
+            "label": "Laptop",
+            "description": "Dell laptop ...",
+            "status": "Available",
+            "image": "../../../../assets/laptop/dell laptop.png"
+        },
+        {
+            "id": 3,
+            "name": "SONY",
+            "price": 35000,
+            "label": "Laptop",
+            "description": "Sony laptop ...",
+            "status": "Available",
+            "image": "../../../../assets/laptop/sony laptop.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "ALINWARE",
+            "price": 35000,
+            "label": "Laptop",
+            "description": "alineware laptop ...",
+            "status": "Available",
+            "image": "../../../../assets/laptop/alienware laptop.webp"
+        }
+    ],
+    "DesktopProduct": [
+        {
+            "name": "HP",
+            "label": "Desktop",
+            "price": 32000,
+            "description": "Hp Desktop ...",
+            "status": "Available",
+            "image": "../../../../assets/desktop/hp desktop.jpeg",
+            "id": 1
+        },
+        {
+            "id": 2,
+            "name": "DELL",
+            "label": "Desktop",
+            "price": 31000,
+            "description": "Dell Desktop ...",
+            "status": "Available",
+            "image": "../../../../assets/desktop/dell desktop.jpg"
+        },
+        {
+            "id": 3,
+            "name": "SONY",
+            "label": "Desktop",
+            "price": 35000,
+            "description": "Sony Desktop ...",
+            "status": "Available",
+            "image": "../../../../assets/desktop/sony desktop.jpg"
+        }
+    ],
+    "DisplayProduct": [
+        {
+            "id": 1,
+            "label": "Laptop",
+            "image": "../../../../assets/laptop/sony laptop.jpeg"
+        },
+        {
+            "id": 2,
+            "label": "Desktop",
+            "image": "../../../../assets/desktop/hp desktop.jpeg"
+        }
+    ]
+}
